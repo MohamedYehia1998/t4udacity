@@ -41,7 +41,7 @@ jobs:
           name: API Build
           command: |
             echo "Build the backend API"
-            npm run backend: build
+            npm run backend:build
   # deploy step will run only after manual approval
   deploy:
     docker:
