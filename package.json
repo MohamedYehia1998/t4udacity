@@ -12,6 +12,6 @@
         "api:start": "cd udagram/udagram-api && npm run dev",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
         "deploy": "npm run api:deploy && npm run frontend:deploy",
-	"set:env": "cd udagram && eb use udagram-api-deploy && chmod +x udagram-api/set_env_elb.sh && udagram-api/set_env_elb.sh"
+	"set:env": "cd udagram/udagram-api && eb use udagram-api-deploy && chmod +x udagram-api/set_env_elb.sh && udagram-api/set_env_elb.sh"
     }
 }
