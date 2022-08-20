@@ -13,5 +13,6 @@
 
 ### Deploy
 
+1. Push the environment variables from CircleCI to elastic beanstalk
 1. Push backend to elastic beanstalk
 1. Push frontend to S3 bucket
